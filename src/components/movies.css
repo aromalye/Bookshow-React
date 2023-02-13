@@ -1,0 +1,87 @@
+.nav{
+  width:100%;
+  background-color: rgb(34, 37, 57);
+  color: #ffffff;
+  padding: 10px 10px 10px 10px;
+  align-items: center;
+}
+.navbar a {
+  text-decoration: none;
+}
+.search {
+  width: 550px;
+}
+.box {
+    display: flex;
+    position: relative;
+    -webkit-box-align: center;
+    align-items: center;
+    overflow: hidden;
+    transition: height 0.3s ease-in 0s, width 0.3s ease-in 0s;
+    width: 100%;
+    height: calc(350.755px);
+    max-height: unset;
+    margin: 0px 0px 0px 0px;
+    border-radius: 8px;
+    background-position: center;
+}
+.showhead {
+    background-color: #333545;
+    color: aliceblue;
+    padding: 30px ;
+}
+.seatcontainer{
+    background: rgb(255, 255, 255);
+    width:60%;
+    margin: 25px 150px;
+    padding: 50px 50px;
+}
+.Cinema {
+    margin-bottom: 18px;
+    perspective: 400px;
+  
+    display: grid;
+    place-items: center;
+    grid-gap: 24px;
+  }
+  
+  .Cinema .screen {
+    height: 70px;
+    background: white;
+    width: 40%;
+    transform: rotateX(60deg) scale(1.1);
+    box-shadow: 0 3px 10px 2px;
+    margin: 50px 0 0 0;
+  }
+  .selectedDate{
+    width:20%;
+    background: rgb(68, 59, 47);
+    margin: 20px 40px;
+    border: 2px dotted rgb(221, 221, 198);
+    padding: 10px 20px;
+    color:rgb(233, 228, 221)
+  }
+  .selectbox {
+    color: rgb(238, 19, 19);
+    width: 250px;
+    background-color: rgb(255, 252, 252);
+    margin: 20px;
+    padding: 10px;
+  }
+  .footer{
+    background-color: grey;
+    /* height: 350px; */
+    color: #ffffff;
+  }
+  .tablex th, td{
+    color: rgb(223, 223, 224);
+    padding: 10px 50px;
+  }
+  .journerbox{
+    border: 1px solid white;
+    padding: 0px 20px;
+    height: 25px;
+    border-radius: 40px;
+    margin: 20px 5px;
+  }
+
